@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "leetcode-solutions"
+version = "0.1.0"
+description = ""
+authors = ["pythonuzbek <nusratullo3304@gmail.com>"]
+readme = "README.md"
+packages = [{include = "leetcode_solutions"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
